@@ -1,3 +1,24 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "vidiot's passargada"
+theme = "hallo-hugo"
+[Author]
+  name = "vidiot"
+[params]
+
+  greeting = "oh boy"
+  [params.colors]
+    background = "#ea2a3b"
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/isItTacio"
+  [[params.links]]
+    icon = "itch-io"
+    title = "Itch.io"
+    url = "https://vidiot.itch.io/"
+  [[params.links]]
+    iconset = "fas"
+    icon = "blog"
+    title = "Zonelets"
+    url = "https://vidiot.neocities.org/index.html"
